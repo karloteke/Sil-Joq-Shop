@@ -35,27 +35,26 @@ header {
   align-items: center;
   padding: 10px;
   background-color: black;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .content-header{
   display: flex;
   align-items: center;
-  padding-left: 150px;
 }
 
 .menu{
-  max-width: 36px; 
+  max-width: 45px; 
 }
 
 .logo{
-  max-width: 138px; 
-  height: 100px;
+  width: 176px;
 }
 
 .search-bar{
   display: flex;
   align-items: center;
-  padding-right: 150px;
 }
 
 .input-container input{
@@ -63,6 +62,8 @@ header {
   border: 1px solid #ccc; 
   border-radius: 5px;
   padding-right: 50px;
+  font-family: 'Gotham Thin', sans-serif;
+  font-size: 13px;
 }
 
 .icon-container{
@@ -105,14 +106,19 @@ nav li{
 
 nav a{
   text-decoration: none; /* Quita el subrayado de los enlaces */
-  color: rgba(0, 0, 0, 0.47);
+  color: rgba(0, 0, 0, 0.75);
   font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+
+.active{
+    font-weight: bold;
 }
 
 .container-carousel{
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .btn-container{
@@ -121,7 +127,6 @@ nav a{
   display: flex;
   justify-content: center;
   padding: 10px;
-  /*font-family: 'GeoSans', sans-serif;*/
   font-family: 'Gotham Thin', sans-serif;
   font-size: 20px;
   border: 1px solid #ccc;
@@ -154,10 +159,13 @@ nav a{
   justify-content: space-between;
   padding-right: 100px;
   padding-left: 100px;
+  padding-top: 20px;
 }
 
 p{
-  color:white;
+  color: white;
+  font-family: 'GeoSans', sans-serif;
+  font-size: 15px;
 }
 
 h2{
@@ -177,20 +185,22 @@ h1{
 .newsletter-container{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
   padding-right: 100px;
 }
 
-.footer-menu{
-  font-family: 'GeoSans', sans-serif;
-  font-size: 15px;
-  padding-top: 54px;
-  padding-left: 100px;
+.newsletter-container input{
+  padding: 5px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  padding-right: 50px;
+  font-family: 'Gotham Thin', sans-serif;
+  font-size: 13px;
 }
 
-.social-media{
-  font-family:'Gotham Thin', sans-serif; 
-  font-size: 16px;
+.footer-menu{
+  padding-top: 54px;
+  padding-left: 100px;
 }
 
 .container-icon{
@@ -200,16 +210,15 @@ h1{
   padding-right: 50px;
 }
 
+.icon-ig{
+  height: 34px;
+  padding-top: 11px;
+}
 
-
-
-
-
-
-
-
-
-
+.icon-facebook{
+  height: 33px;
+  padding-left: 19px;
+}
 
 
 
@@ -233,6 +242,7 @@ h1{
     position: relative;
     padding: 30;
     list-style: none;
+    border: 3px solid black;
   }
   .carousel__controls,
   .carousel__activator {
