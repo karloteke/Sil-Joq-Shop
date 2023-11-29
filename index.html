@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Tienda Sil joq</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'> 
+                
+    </head>
+    <body>
+        <header>
+            <div class="content-header">
+                <img class="menu" src="./assets/img/menu.png" alt="Menu">
+                <img class="logo" src="./assets/img/logo.png" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <div class = "icon-container">
+                    <img class = "icon-search" src="./assets/img/lupa.png" alt="Search icon">
+                </div>
+                <div class="input-container">
+                    <input type="text" placeholder="Buscar...">
+                </div>  
+                <div class="container-icon">
+                    <div>
+                        <img class = "icon-user" src="./assets/img/user.png" alt="Search icon"> 
+                    </div>
+                    <div>
+                        <img class = "icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
+                    </div> 
+                </div>  
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a class="active" href="#">INICIO</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="#">NOVEDADES</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>    
+
+        <section>
+            <div class="container-carousel">
+                <div class="carousel my-carousel carousel--translate">
+                    <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
+                    <input class="carousel__activator" type="radio" name="carousel" id="G"/>
+                    <input class="carousel__activator" type="radio" name="carousel" id="H"/>
+                    <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="H"></label>
+                    <label class="carousel__control carousel__control--forward" for="G"></label>
+                    </div>
+                    <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="F"></label>
+                    <label class="carousel__control carousel__control--forward" for="H"></label>
+                    </div>
+                    <div class="carousel__controls">
+                    <label class="carousel__control carousel__control--backward" for="G"></label>
+                    <label class="carousel__control carousel__control--forward" for="F"></label>
+                    </div>
+                    
+                    <div class="carousel__track">
+                    <li class="carousel__slide"></li>
+                    <li class="carousel__slide"></li>
+                    <li class="carousel__slide"></li>
+                    </div>
+        </section>
+
+        <section>
+            <div class="text-container">
+                <p class="new-products">¡Descubre lo último en tendencias y novedades en nuestra tienda!
+                    Explora nuestro catálogo para descubrir los nuevos productos de esta semana. 
+                    ¡No te pierdas lo último en Sil Joq!
+                </p>
+            </div>
+
+            <div class="btn">
+                <button class="btn-container">VER NOVEDADES</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <p>Contacto</p>
+                    <p>Aviso legal</p>
+                    <p>Términos y condiciones</p>
+                </div>
+                <div class="social-media">
+                    <h2>Siguenos</h2>
+                    <img class = "icon-search" src="./assets/img/ig.png" alt="Instgram icon">
+                    <img class = "icon-search" src="./assets/img/facebook.png" alt="Facebook icon">
+                </div>
+                <div class="newsletter-container">
+                    <h1>Suscribete a la Newsletter</h1>
+                    <input type="text" placeholder="Email...">
+                    <input type="text" placeholder="Contraseña...">
+                <div class="btn">
+                    <button class="btn-container">SUSCRÍBETE</button>
+                </div>             
+            </div>
+        </footer>
+    </body>
+</html>
