@@ -22,11 +22,20 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+/* Regla para que el tamaño de los bordes no cuente en los cálculos de la página */
+*{ 
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;     
+}
                 
 
 
 body {
   margin: 0;
+ 
 }
 
 header {
@@ -137,7 +146,8 @@ nav a{
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
-  font-family:'Gotham Thin', sans-serif; ;
+  font-family:'Gotham Thin', sans-serif;
+  cursor: pointer;
 }
 
 .text-container{
@@ -193,9 +203,9 @@ h1{
   padding: 5px;
   border: 1px solid #ccc; 
   border-radius: 5px;
-  padding-right: 50px;
+  padding-right: 5px;
   font-family: 'Gotham Thin', sans-serif;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .footer-menu{
@@ -223,10 +233,92 @@ h1{
 
 
 
+/* PRODUCTS-LIST */
+
+.products-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 145px;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 96px;
+  width: 60%;
+  padding-top: 9px;
+  padding-bottom: 80px;
+}
 
 
+.product-photo{
+  height: 184px;
+  width: 188px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
 
+.h1-products{
+  color: rgb(255,206,56);
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 24px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
 
+.h2-filter{
+  color: #000000;
+  font-size: 15px;
+  padding-top: 44px;
+}
+
+.h3-filter{
+  color: #000000;
+  font-size: 11px;
+  padding-top: 44px;
+}
+
+.filters.container{
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  box-sizing: border-box; 
+}
+
+.filter{
+  list-style-type: none;
+}
+
+.sizes-container, .color-container {
+  margin-bottom: 20px;
+}
+
+.size-square {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: #ccc;
+}
+
+.btn-product{
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.product h2{
+  color: black;
+}
+
+.product p{
+  color: black;
+}
 
 
 

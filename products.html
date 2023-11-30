@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Lista de productos</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'> 
+                
+    </head>
+    <body>
+        <header>
+            <div class="content-header">
+                <img class="menu" src="./assets/img/menu.png" alt="Menu">
+                <img class="logo" src="./assets/img/logo.png" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <div class = "icon-container">
+                    <img class = "icon-search" src="./assets/img/lupa.png" alt="Search icon">
+                </div>
+                <div class="input-container">
+                    <input type="text" placeholder="Buscar...">
+                </div>  
+                <div class="container-icon">
+                    <div>
+                        <img class = "icon-user" src="./assets/img/user.png" alt="Search icon"> 
+                    </div>
+                    <div>
+                        <img class = "icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
+                    </div> 
+                </div>  
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li>
+                <li>
+                    <a class="active" href="products.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="#">NOVEDADES</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>  
+        <section>
+            <h1 class="h1-products">PRODUCTOS</h1>
+            <div class="products-container">
+                <div>
+                    <div class="filters-container">
+                        <h2 class="h2-filter">Filtrar por:</h2>
+                </div>
+                <div class="sizes-container">
+                    <h3 class="h3-filter">Tallas</h3>
+                    <ul class ="filter">
+                        <li><span class="size-square"></span>S</li>
+                        <li><span class="size-square"></span>M</li>
+                        <li><span class="size-square"></span>L</li>
+                        <li><span class="size-square"></span>XL</li>
+                    </ul>
+                </div>
+                <div class="color-container">
+                    <h3 class="h3-filter">Color</h3>
+                    <ul class="filter">
+                        <li><span class="size-square"></span>Azul</li>
+                        <li><span class="size-square"></span>Blanco</li>
+                        <li><span class="size-square"></span>Negro</li>
+                        <li><span class="size-square"></span>Gris</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product-list">
+                <div>
+                    <div class="product">
+                        <img class="product-photo" src="./assets/img/sudadera.jpg">
+                        <div class="description">
+                            <h2>Sudadera</h2>
+                            <p>59,95€</p>  
+                        </div>
+                        <button class="btn-product">Añadir</button>  
+                    </div>
+
+                    <div class="product">
+                        <img class="product-photo" src="./assets/img/camiseta.png">
+                        <h2>Bolsa</h2>
+                        <p>29,95€</p>
+                        <button class="btn-product">Añadir</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="product">
+                        <img class="product-photo" src="./assets/img/bolsa.jpg">
+                        <h2>Camiseta</h2>
+                        <p>39,95€</p>
+                        <button class="btn-product">Añadir</button>
+                    </div>
+
+                    <div class="product">
+                        <img class="product-photo" src="./assets/img/polo.jpg">
+                        <h2>Polo</h2>
+                        <p>45,95€</p>
+                        <button class="btn-product">Añadir</button>
+                    </div>
+                </div>
+            </div> 
+    </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <p>Contacto</p>
+                    <p>Aviso legal</p>
+                    <p>Términos y condiciones</p>
+                </div>
+                <div class="social-media">
+                    <h2>Siguenos</h2>
+                    <img class = "icon-ig" src="./assets/img/ig.png" alt="Instgram icon">
+                    <img class = "icon-facebook" src="./assets/img/facebook.png" alt="Facebook icon">
+                </div>
+                <div class="newsletter-container">
+                    <h1>Suscribete a la Newsletter</h1>
+                    <input type="text" placeholder="Email...">
+                    <input type="text" placeholder="Contraseña...">
+                <div class="btn">
+                    <input type="submit" class="btn-container" value="SUSCRÍBETE">
+                    <!--<button class="btn-container">SUSCRÍBETE</button>-->  
+                </div>             
+            </div>
+        </footer>    
+    </body>
+</html>
