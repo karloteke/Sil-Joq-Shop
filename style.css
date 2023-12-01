@@ -144,6 +144,10 @@ nav a{
   border-radius: 5px;
 }
 
+.btn-news{
+  margin-bottom: 100px;
+}
+
 .btn{
   display: flex;
   justify-content: center;
@@ -175,6 +179,7 @@ p{
   color: white;
   font-family: 'GeoSans', sans-serif;
   font-size: 15px;
+  margin-top: 0px;
 }
 
 h2{
@@ -208,8 +213,8 @@ h1{
 }
 
 .footer-menu{
-  padding-top: 64px;
   padding-left: 85px;
+  padding-top: 37px;
 }
 
 .container-icon{
@@ -227,9 +232,9 @@ h1{
   padding-right: 70px;
 }
 
-
-
-
+.logo-footer{
+  height: 80px;
+}
 
 /* PRODUCTS-LIST */
 
@@ -263,7 +268,7 @@ h1{
   font-size: 20px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   padding-left: 129px;
-  font-weight: 3;
+  font-weight: 550;
 }
 
 .h2-filter{
@@ -349,11 +354,6 @@ h1{
   margin-top: 10px;
   margin-bottom: 16px;
 }
-
-
-
-
-
 
 /* CARROUSEL */
 .carousel {
