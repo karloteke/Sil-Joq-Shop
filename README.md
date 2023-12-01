@@ -22,33 +22,39 @@ Por último he utilizado el color blanco para el resto de la página para que la
 
 # Tipografía y Fuentes
 
+A continuación detallo las fuentes utilizadas para el desarrollo de la web con sus respectivos estilos, tamaños y colores
+
 ## Helvetica Neue -->  My fonts
 
 ### Estilos
 
-Título del menú: Helvetica Neue / 22px / rgba(0, 0, 0, 0.75);
+Título del menú: Helvetica Neue Thin / 22px / rgba (0, 0, 0, 0.75)
 
-Título lista de productos: Helvetica Neue / 24px / rgb(255, 206, 56)
+Active: Helvetica neue Medium / 22px / rgb(255, 206, 56)
+
+Título lista de productos: Helvetica Neue Medium/ 24px / #000000
+
 
 ## Gothan thin --> Fontsgeek 
 
 ### Estilos
 
-Texto botones: Gothan thin / 20px / #FFFFFF
+Texto botones: Gothan Thin / 20px / #FFFFFF
 
-Texto input: Gothan thin / 13px / #000000
+Texto input: Gothan Thin  / 13px / #000000
 
-Títulos footer: Gotham thin / 20px / #FFFFFF
+Títulos footer: Gotham Thin  / 20px / #FFFFFF
+
 
 ## Geo Sans Light --> Dafont
 
 ### Estilos
 
-Texto filtros: Geo Sans Light / 17, 14px / #000000
+Texto filtros: Geo Sans Light  / 17, 14px / #000000
 
-Texto productos: Geo Sans Light / 19px / #000000
+Texto productos: Geo Sans Regular / 19px / #000000
 
-Texto footer: Geo Sans Light / 15px / #FFFFFF
+Texto footer: Geo Sans Thin / 15px / #FFFFFF
 
 
 He utilizado mayúsculas en los botones (ver novedades y suscripción), en el menú y  en el título de la sección de productos para destacarlos.
