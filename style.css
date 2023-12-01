@@ -112,17 +112,17 @@ nav li{
 nav a{
   text-decoration: none; /* Quita el subrayado de los enlaces */
   color: rgba(0, 0, 0, 0.75);
-  font-size: 21px;
+  font-size: 22px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   letter-spacing: 2px;
-  font-weight: 50;
+  font-weight: 100;
   margin-right: 18px;
   letter-spacing: 2px;
   }
 
 .active{
   color: rgb(255, 206, 56);
-  font-weight: 501;
+  font-weight: 700;
 }
 
 .container-carousel{
@@ -265,10 +265,10 @@ h1{
 .h1-products{
   color:rgb(0, 0, 0);
   padding-top: 15px;
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   padding-left: 129px;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .h2-filter{
@@ -333,7 +333,7 @@ h1{
   color: black;
   font-family: 'GeoSans', sans-serif;
   font-size: 19px;
-  font-weight: 356;
+  font-weight: 300;
   padding-top: 20px;
   display: flex;
   justify-content: center;
