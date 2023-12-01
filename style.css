@@ -1,25 +1,22 @@
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('fonts/helvetica-neue.woff2') format('woff2'), /* Agrega todos los formatos de fuente que tengas */
-       url('fonts/helvetica-neue.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'GeoSans';
-  src: local('GeoSans'), url('ruta/a/GeoSans.woff2') format('woff2'),
-       url('ruta/a/GeoSans.woff') format('woff');
-  font-weight: normal;
+  font-family: 'HelveticaNeueThin';
+  src: local('HelveticaNeue Thin'), local('HelveticaNeue-Thin'), url('./fonts/HelveticaNeue Thin.ttf') format('truetype');
+  font-weight: normal; 
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham Thin';
-  src: local('Gotham Thin'), url('ruta/a/GothamThin.woff2') format('woff2'),
-       url('ruta/a/GothamThin.woff') format('woff');
-  font-weight: normal;
+  src: local('Gotham Thin'), local('Gotham Thin'), url('./fonts/Gotham Thin.otf') format('truetype');
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeosansLight';
+  src: local('GeosansLight'), local('GeosansLight'), url('./fonts/GeosansLight.ttf') format('truetype');
+  font-weight: normal; 
   font-style: normal;
 }
 
@@ -30,12 +27,9 @@
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;     
 }
-                
-
 
 body {
   margin: 0;
- 
 }
 
 header {
@@ -82,11 +76,12 @@ header {
 .icon-search{
   height: 25px;
   padding-right: 20px;
+  padding-top: 3px;
 }
 
 .icon-user{
   height: 30px;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 
 .icon-shopping{
@@ -99,6 +94,7 @@ nav{
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 35px;
 }
 
 nav ul{
@@ -116,12 +112,17 @@ nav li{
 nav a{
   text-decoration: none; /* Quita el subrayado de los enlaces */
   color: rgba(0, 0, 0, 0.75);
-  font-size: 22px;
+  font-size: 21px;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 50;
+  margin-right: 18px;
+  letter-spacing: 2px;
   }
 
 .active{
-    font-weight: bold;
+  color: rgb(255, 206, 56);
+  font-weight: 501;
 }
 
 .container-carousel{
@@ -139,15 +140,14 @@ nav a{
   font-family: 'Gotham Thin', sans-serif;
   font-size: 20px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .btn{
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
-  font-family:'Gotham Thin', sans-serif;
-  cursor: pointer;
 }
 
 .text-container{
@@ -167,9 +167,8 @@ nav a{
   background-color: black;
   display: flex;
   justify-content: space-between;
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-top: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 p{
@@ -182,7 +181,7 @@ h2{
   color:white;
   font-family: 'Gotham Thin', sans-serif;
   font-size: 20px;
-  padding-top: 23px;
+  padding-top: 44px;
 }
 
 h1{
@@ -205,12 +204,12 @@ h1{
   border-radius: 5px;
   padding-right: 5px;
   font-family: 'Gotham Thin', sans-serif;
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .footer-menu{
-  padding-top: 54px;
-  padding-left: 100px;
+  padding-top: 64px;
+  padding-left: 85px;
 }
 
 .container-icon{
@@ -220,15 +219,14 @@ h1{
   padding-right: 50px;
 }
 
-.icon-ig{
-  height: 34px;
-  padding-top: 11px;
+.icon-ig, .icon-facebook{
+  height: 40px;
 }
 
-.icon-facebook{
-  height: 33px;
-  padding-left: 19px;
+.social-media{
+  padding-right: 70px;
 }
+
 
 
 
@@ -246,78 +244,110 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 96px;
+  gap: 166px;
   width: 60%;
-  padding-top: 9px;
+  padding-top: 14px;
   padding-bottom: 80px;
 }
 
-
 .product-photo{
-  height: 184px;
-  width: 188px;
-  border-radius: 3px;
+  height: 226px;
+  width: 218px;
+  border-radius: 5px;
   border: 1px solid black;
 }
 
 .h1-products{
-  color: rgb(255,206,56);
-  padding-left: 100px;
-  padding-top: 50px;
-  font-size: 24px;
+  color:rgb(0, 0, 0);
+  padding-top: 15px;
+  font-size: 20px;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  padding-left: 129px;
+  font-weight: 3;
 }
 
 .h2-filter{
   color: #000000;
-  font-size: 15px;
-  padding-top: 44px;
+  font-family: 'GeoSans', sans-serif;
+  font-size: 17px;
+  padding-top: 4px;
 }
 
 .h3-filter{
   color: #000000;
-  font-size: 11px;
-  padding-top: 44px;
+  font-family: 'GeoSans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 11px;
 }
 
-.filters.container{
+.filter li{
+  font-family: 'GeoSans', sans-serif; 
+  font-size: 14px;
+}
+
+.filters-container{
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  flex: 1; /* Ocupa todo el espacio disponible */
   box-sizing: border-box; 
+  padding-right: 100px;
 }
 
 .filter{
   list-style-type: none;
+  padding: 10px;
+  padding-right: 30px;
 }
 
 .sizes-container, .color-container {
   margin-bottom: 20px;
 }
 
-.size-square {
+.square{
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   margin-right: 5px;
-  background-color: #ccc;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
 .btn-product{
-  border-radius: 2px;
+  border-radius: 5px;
   border: 1px solid black;
   background-color: black;
   color: white;
   margin-bottom: 45px;
+  font-family: 'Gotham Thin', sans-serif;
+  font-size: 20px;
 }
 
 .product h2{
   color: black;
+  font-family: 'GeoSans', sans-serif;
+  font-size: 19px;
+  font-weight: 356;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.product p{
-  color: black;
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.product-detail{
+  display:inline-flex;
+  justify-content:space-between;
+  width: 85%;
+  margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 
@@ -327,8 +357,8 @@ h1{
 
 /* CARROUSEL */
 .carousel {
-    height: 458px;
-    width: 1000px;
+    height: 527px;
+    width: 1070px;
     overflow: hidden;
     text-align: center;
     position: relative;
