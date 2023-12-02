@@ -7,7 +7,6 @@ Son dos tonos muy apropiados para un logotipo de una Web de moda.
 
 <img src="./assets/img/logo.png" alt="Texto alternativo" width="200"/>
 
-
 He combinado estos dos colores del logo con una cabecera en fondo negro, ya que resalta muy bien con los colores de nuestra marca creando un aspecto muy visual y elegante.
 
 # Gama de colores 
@@ -21,8 +20,6 @@ También lo he utilizado para el fondo del footer y de los botones para resaltar
 Por último he utilizado el color blanco para el resto de la página para que la web se vea limpia y destaque con los fondos negros.
 
 # Tipografía y Fuentes
-
-A continuación detallo las fuentes utilizadas para el desarrollo de la web con sus respectivos estilos, tamaños y colores
 
 ## Helvetica Neue -->  My fonts
 
@@ -55,9 +52,10 @@ Texto filtros: Geo Sans Light  / 17, 14px / #000000
 Texto productos: Geo Sans Regular / 19px / #000000
 
 Texto footer: Geo Sans Thin / 15px / #FFFFFF
-
+***
 
 He utilizado mayúsculas en los botones (ver novedades y suscripción), en el menú y  en el título de la sección de productos para destacarlos.
+
 
 # Iconos
 
