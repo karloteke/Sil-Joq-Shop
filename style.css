@@ -32,7 +32,7 @@ body {
   margin: 0;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,25 +42,25 @@ header {
   padding-right: 70px;
 }
 
-.content-header{
+.header__content{
   display: flex;
   align-items: center;
 }
 
-.menu{
+.header__menu{
   max-width: 45px; 
 }
 
-.logo{
+.header__logo{
   width: 176px;
 }
 
-.search-bar{
+.header__search-bar{
   display: flex;
   align-items: center;
 }
 
-.input-container input{
+.header__input-container input{
   padding: 5px;
   border: 1px solid #ccc; 
   border-radius: 5px;
@@ -69,22 +69,22 @@ header {
   font-size: 13px;
 }
 
-.icon-container{
+.header__icon-container{
   display: inline-flex;
 }
 
-.icon-search{
+.header__icon-search{
   height: 25px;
   padding-right: 20px;
   padding-top: 3px;
 }
 
-.icon-user{
+.header__icon-user{
   height: 30px;
   padding-top: 7px;
 }
 
-.icon-shopping{
+.header__icon-shopping{
   height: 30px;
   padding-left: 20px;
   padding-top: 7px;
@@ -120,18 +120,18 @@ nav a{
   letter-spacing: 2px;
   }
 
-.active{
+.nav__active{
   color: rgb(255, 206, 56);
   font-weight: 700;
 }
 
-.container-carousel{
+.section__container-carousel{
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
 }
 
-.btn-container{
+.section__btn-container{
   background-color: #000000;
   color:white;
   display: flex;
@@ -144,11 +144,11 @@ nav a{
   border-radius: 5px;
 }
 
-.btn-news{
+.section__btn-news{
   margin-bottom: 100px;
 }
 
-.btn{
+.section__btn{
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
@@ -167,12 +167,13 @@ nav a{
   padding-bottom: 30px;
 }
 
-.footer-container{
+.footer__container{
   background-color: black;
   display: flex;
   justify-content: space-between;
   padding-right: 60px;
   padding-left: 60px;
+  padding-bottom: 30px;
 }
 
 p{
@@ -196,15 +197,15 @@ h1{
   padding-top: 23px;
 }
 
-.newsletter-container{
+.footer__newsletter-container{
   display: flex;
   flex-direction: column;
   gap: 18px;
   padding-right: 100px;
 }
 
-.newsletter-container input{
-  padding: 5px;
+.footer__newsletter-container input{
+  padding: 7px;
   border: 1px solid #ccc; 
   border-radius: 5px;
   padding-right: 5px;
@@ -212,33 +213,47 @@ h1{
   font-size: 13px;
 }
 
-.footer-menu{
+.footer__menu{
   padding-left: 85px;
   padding-top: 37px;
 }
 
-.container-icon{
+.footer__btn-container{
+  background-color: #000000;
+  color:white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: 'Gotham Thin', sans-serif;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 80px;
+}
+
+.header__container-icon{
   display: flex;
   justify-content: center;
   padding-left: 58px;
   padding-right: 50px;
 }
 
-.icon-ig, .icon-facebook{
+.footer__icon-ig, .footer__icon-facebook{
   height: 40px;
 }
 
-.social-media{
+.footer__social-media{
   padding-right: 70px;
 }
 
-.logo-footer{
+.footer__logo{
   height: 80px;
 }
 
 /* PRODUCTS-LIST */
 
-.products-container{
+.products__container{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -249,20 +264,20 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 166px;
+  gap: 100px;
   width: 60%;
   padding-top: 14px;
   padding-bottom: 80px;
 }
 
-.product-photo{
+.product__photo{
   height: 226px;
   width: 218px;
   border-radius: 5px;
   border: 1px solid black;
 }
 
-.h1-products{
+.products__title{
   color:rgb(0, 0, 0);
   padding-top: 15px;
   font-size: 24px;
@@ -271,14 +286,14 @@ h1{
   font-weight: 500;
 }
 
-.h2-filter{
+.filters__title{
   color: #000000;
   font-family: 'GeoSans', sans-serif;
   font-size: 17px;
   padding-top: 4px;
 }
 
-.h3-filter{
+.sizes__title, .colors__title{
   color: #000000;
   font-family: 'GeoSans', sans-serif;
   font-size: 14px;
@@ -291,25 +306,20 @@ h1{
   font-size: 14px;
 }
 
-.filters-container{
+.filters{
   padding-top: 30px;
-  display: flex;
   flex-wrap: wrap;
   box-sizing: border-box; 
   padding-right: 100px;
 }
 
-.filter{
+.sizes__list, .colors__list{
   list-style-type: none;
   padding: 10px;
   padding-right: 30px;
 }
 
-.sizes-container, .color-container {
-  margin-bottom: 20px;
-}
-
-.square{
+.sizes__square, .colors__square{
   display: inline-block;
   width: 17px;
   height: 17px;
@@ -319,21 +329,21 @@ h1{
   border-radius: 2px;
 }
 
-.btn-product{
+.product__btn{
   border-radius: 5px;
   border: 1px solid black;
   background-color: black;
   color: white;
-  margin-bottom: 45px;
   font-family: 'Gotham Thin', sans-serif;
   font-size: 20px;
+  padding: 7px;
 }
 
-.product h2{
+.product__name, .product__price{
   color: black;
   font-family: 'GeoSans', sans-serif;
   font-size: 19px;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -345,9 +355,10 @@ h1{
   align-items: center;
   text-align: center;
   margin: 10px;
+  padding-left: 55px;
 }
 
-.product-detail{
+.product__detail{
   display:inline-flex;
   justify-content:space-between;
   width: 85%;

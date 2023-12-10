@@ -9,24 +9,24 @@
                 
     </head>
     <body>
-        <header>
-            <div class="content-header">
-                <img class="menu" src="./assets/img/menu.png" alt="Menu">
-                <img class="logo" src="./assets/img/logo.png" alt="Logo">
+        <header class="header">
+            <div class="header__content">
+                <img class="header__menu" src="./assets/img/menu.png" alt="Menu">
+                <img class="header__logo" src="./assets/img/logo.png" alt="Logo">
             </div>
-            <div class="search-bar">
-                <div class = "icon-container">
-                    <img class = "icon-search" src="./assets/img/lupa.png" alt="Search icon">
+            <div class="header__search-bar">
+                <div class = "header__icon-container">
+                    <img class = "header__icon-search" src="./assets/img/lupa.png" alt="Search icon">
                 </div>
-                <div class="input-container">
+                <div class="header__input-container">
                     <input type="text" placeholder="Buscar...">
                 </div>  
-                <div class="container-icon">
+                <div class="header__container-icon">
                     <div>
-                        <img class = "icon-user" src="./assets/img/user.png" alt="Search icon"> 
+                        <img class = "header__icon-user" src="./assets/img/user.png" alt="Search icon"> 
                     </div>
                     <div>
-                        <img class = "icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
+                        <img class = "header__icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
                     </div> 
                 </div>  
             </div>
@@ -38,7 +38,7 @@
                     <a href="index.html">INICIO</a>
                 </li>
                 <li>
-                    <a class="active" href="products.html">PRODUCTOS</a>
+                    <a class="nav__active" href="products.html">PRODUCTOS</a>
                 </li>
                 <li>
                     <a href="#">NOVEDADES</a>
@@ -48,95 +48,91 @@
                 </li>
             </ul>
         </nav>  
-        <section>
-            <h1 class="h1-products">PRODUCTOS</h1>
-            <div class="products-container">
-                <div>
-                    <div class="filters-container">
-                        <h2 class="h2-filter">Filtrar por:</h2>
+        <section class="products">
+            <h1 class="products__title">PRODUCTOS</h1>
+            <div class="products__container">
+                <div class="filters">
+                    <h2 class="filters__title">Filtrar por:</h2>
+                    <div class="sizes">
+                        <h3 class="sizes__title">Tallas</h3>
+                        <ul class ="sizes__list">
+                            <li><span class="sizes__square"></span>S</li>
+                            <li><span class="sizes__square"></span>M</li>
+                            <li><span class="sizes__square"></span>L</li>
+                            <li><span class="sizes__square"></span>XL</li>
+                        </ul>
+                    </div>
+                    <div class="colors">
+                        <h3 class="colors__title">Color</h3>
+                        <ul class="colors__list">
+                            <li><span class="colors__square"></span>Azul</li>
+                            <li><span class="colors__square"></span>Blanco</li>
+                            <li><span class="colors__square"></span>Negro</li>
+                            <li><span class="colors__square"></span>Gris</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="sizes-container">
-                    <h3 class="h3-filter">Tallas</h3>
-                    <ul class ="filter">
-                        <li><span class="square"></span>S</li>
-                        <li><span class="square"></span>M</li>
-                        <li><span class="square"></span>L</li>
-                        <li><span class="square"></span>XL</li>
-                    </ul>
-                </div>
-                <div class="color-container">
-                    <h3 class="h3-filter">Color</h3>
-                    <ul class="filter">
-                        <li><span class="square"></span>Azul</li>
-                        <li><span class="square"></span>Blanco</li>
-                        <li><span class="square"></span>Negro</li>
-                        <li><span class="square"></span>Gris</li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="product-list">
-                <div>
+                <div class="product-list">
                     <div class="product">
-                        <img class="product-photo" src="./assets/img/sudadera.jpg">
-                        <div class="product-detail">
-                            <h2>Sudadera</h2>
-                            <h2><strong>59,95€</strong></h2>  
+                        <img class="product__photo" src="./assets/img/sudadera.jpg">
+                        <div class="product__detail">
+                            <h2 class="product__name">Sudadera</h2>
+                            <h2 class="product__price"><strong>59,95€</strong></h2>  
                         </div>
-                        <button class="btn-product">Añadir</button>  
+                        <button class="product__btn">Añadir</button>  
                     </div>
 
                     <div class="product">
-                        <img class="product-photo" src="./assets/img/camiseta.png">
-                        <div class="product-detail">
-                            <h2>Bolsa</h2>
-                            <h2><strong>29,95€</strong></h2>
+                        <img class="product__photo" src="./assets/img/camiseta.png">
+                        <div class="product__detail">
+                            <h2 class="product__name">Bolsa</h2>
+                            <h2 class="product__price"><strong>29,95€</strong></h2>
                         </div>
-                        <button class="btn-product">Añadir</button>
+                        <button class="product__btn">Añadir</button>
                     </div>
-                </div>
-                <div>
+
+   
                     <div class="product">
-                        <img class="product-photo" src="./assets/img/bolsa.jpg">
-                        <div class="product-detail">
-                            <h2>Camiseta</h2>
-                            <h2><strong>39,95€</strong></h2>
+                        <img class="product__photo" src="./assets/img/bolsa.jpg">
+                        <div class="product__detail">
+                            <h2 class="product__name">Camiseta</h2>
+                            <h2 class="product__price"><strong>39,95€</strong></h2>
                         </div>
-                        <button class="btn-product">Añadir</button>
+                        <button class="product__btn">Añadir</button>
                     </div>
 
                     <div class="product">
-                        <img class="product-photo" src="./assets/img/polo.jpg">
-                        <div class="product-detail">
-                            <h2>Polo</h2>
-                            <h2><strong>45,95€</strong></h2>
+                        <img class="product__photo" src="./assets/img/polo.jpg">
+                        <div class="product__detail">
+                            <h2 class="product__name">Polo</h2>
+                            <h2 class="product__price"><strong>45,95€</strong></h2>
                         </div>
-                        <button class="btn-product">Añadir</button>
+                        <button class="product__btn">Añadir</button>
                     </div>
                 </div>
-            </div> 
-    </section>
+        </section>
 
-        <footer>
-            <div class="footer-container">
-                <div class="footer-menu">
-                    <img class="logo-footer" src="./assets/img/logo.png" alt="Logo">
+        <footer id="footer">
+            <div class="footer__container">
+                <div class="footer__menu">
+                    <img class="footer__logo" src="./assets/img/logo.png" alt="Logo">
                     <p>C/Veronica,3 | ☏ 666555444 | ✉ siljoq@gmail.com</p>
 
                     <p>Términos y condiciones</p>
                     <p>&copy; 2023 Sil Joq. Todos los derechos reservados.</p>
                 </div>
-                <div class="social-media">
+                <div class="footer__social-media">
                     <h2>Siguenos</h2>
-                    <img class = "icon-ig" src="./assets/img/ig.png" alt="Instgram icon">
-                    <img class = "icon-facebook" src="./assets/img/facebook.jpg" alt="Facebook icon">
+                    <img class = "footer__icon-ig" src="./assets/img/ig.png" alt="Instgram icon">
+                    <img class = "fotter__icon-facebook" src="./assets/img/facebook.jpg" alt="Facebook icon">
                 </div>
-                <div class="newsletter-container">
+                <div class="footer__newsletter-container">
                     <h1>Suscribete a nuestra Newsletter</h1>
                     <input type="text" placeholder="Email...">
                     <input type="text" placeholder="Contraseña...">
-                <div class="btn">
-                    <button class="btn-container">SUSCRÍBETE</button>
+                <div class="footer__btn">
+                    <button class="footer__btn-container">SUSCRÍBETE</button>
                 </div>             
             </div>
         </footer>    

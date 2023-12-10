@@ -8,24 +8,24 @@
         <link rel='stylesheet' type='text/css' media='screen' href='style.css'>           
     </head>
     <body>
-        <header>
-            <div class="content-header">
-                <img class="menu" src="./assets/img/menu.png" alt="Menu">
-                <img class="logo" src="./assets/img/logo.png" alt="Logo">
+        <header class="header">
+            <div class="header__content">
+                <img class="header__menu" src="./assets/img/menu.png" alt="Menu">
+                <img class="header__logo" src="./assets/img/logo.png" alt="Logo">
             </div>
-            <div class="search-bar">
-                <div class = "icon-container">
-                    <img class = "icon-search" src="./assets/img/lupa.png" alt="Search icon">
+            <div class="header__search-bar">
+                <div class = "header__icon-container">
+                    <img class = "header__icon-search" src="./assets/img/lupa.png" alt="Search icon">
                 </div>
-                <div class="input-container">
+                <div class="header__input-container">
                     <input type="text" placeholder="Buscar...">
                 </div>  
-                <div class="container-icon">
+                <div class="header__container-icon">
                     <div>
-                        <img class = "icon-user" src="./assets/img/user.png" alt="Search icon"> 
+                        <img class = "header__icon-user" src="./assets/img/user.png" alt="Search icon"> 
                     </div>
                     <div>
-                        <img class = "icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
+                        <img class = "header__icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
                     </div> 
                 </div>  
             </div>
@@ -34,7 +34,7 @@
         <nav>
             <ul>
                 <li>
-                    <a class="active" href="#">INICIO</a>
+                    <a class="nav__active" href="index.html">INICIO</a>
                 </li>
                 <li>
                     <a href="products.html">PRODUCTOS</a>
@@ -46,10 +46,10 @@
                     <a href="#">CONTACTO</a>
                 </li>
             </ul>
-        </nav>    
-
+        </nav>  
+    
         <section>
-            <div class="container-carousel">
+            <div class="section__container-carousel">
                 <div class="carousel my-carousel carousel--translate">
                     <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
                     <input class="carousel__activator" type="radio" name="carousel" id="G"/>
@@ -75,30 +75,30 @@
         </section>
 
         <section>
-            <div class="btn">
-                <button class="btn-container btn-news">VER NOVEDADES</button>
+            <div class="section__btn">
+                <button class="section__btn-container section__btn-news">VER NOVEDADES</button>
             </div>
         </section>
 
         <footer id="footer">
-            <div class="footer-container">
-                <div class="footer-menu">
-                    <img class="logo-footer" src="./assets/img/logo.png" alt="Logo">
+            <div class="footer__container">
+                <div class="footer__menu">
+                    <img class="footer__logo" src="./assets/img/logo.png" alt="Logo">
                     <p>C/Veronica,3 | ☏ 666555444 | ✉ siljoq@gmail.com</p>
                     <p>Términos y condiciones</p>
                     <p>&copy; 2023 Sil Joq. Todos los derechos reservados.</p>
                 </div>
-                <div class="social-media">
+                <div class="footer__social-media">
                     <h2>Siguenos</h2>
-                    <img class = "icon-ig" src="./assets/img/ig.png" alt="Instgram icon">
-                    <img class = "icon-facebook" src="./assets/img/facebook.jpg" alt="Facebook icon">
+                    <img class = "footer__icon-ig" src="./assets/img/ig.png" alt="Instgram icon">
+                    <img class = "footer__icon-facebook" src="./assets/img/facebook.jpg" alt="Facebook icon">
                 </div>
-                <div class="newsletter-container">
+                <div class="footer__newsletter-container">
                     <h1>Suscribete a nuestra Newsletter</h1>
                     <input type="text" placeholder="Email...">
                     <input type="text" placeholder="Contraseña...">
-                <div class="btn">
-                   <button class="btn-container">SUSCRÍBETE</button>
+                <div class="footer__btn">
+                   <button class="footer__btn-container">SUSCRÍBETE</button>
                 </div>             
             </div>
         </footer>
