@@ -15,14 +15,12 @@
             </div>
             <div class="header__search-bar">
                 <div class = "header__icon-container">
-                    <img class = "header__icon-search" src="./assets/img/lupa.png" alt="Search icon">
-                </div>
-                <div class="header__input-container">
-                    <input type="text" placeholder="Buscar...">
+                    <img class = "header__icon-search" src="./assets/img/busqueda.png" alt="Search icon">
+                    <input class="header__input-container" type="text" placeholder="Buscar...">
                 </div>  
                 <div class="header__container-icon">
                     <div>
-                        <img class = "header__icon-user" src="./assets/img/user.png" alt="Search icon"> 
+                        <img class = "header__icon-user" src="./assets/img/usuario.png" alt="Search icon"> 
                     </div>
                     <div>
                         <img class = "header__icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
@@ -50,33 +48,38 @@
     
         <section>
             <div class="section__container-carousel">
-                <div class="carousel my-carousel carousel--translate">
-                    <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked"/>
-                    <input class="carousel__activator" type="radio" name="carousel" id="G"/>
-                    <input class="carousel__activator" type="radio" name="carousel" id="H"/>
-                    <div class="carousel__controls">
-                    <label class="carousel__control carousel__control--backward" for="H"></label>
-                    <label class="carousel__control carousel__control--forward" for="G"></label>
+                <div class="carousel-container">
+                    <div class="carousel my-carousel carousel--translate">
+                        <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked" />
+                        <input class="carousel__activator" type="radio" name="carousel" id="G" />
+                        <input class="carousel__activator" type="radio" name="carousel" id="H" />
+                        <div class="carousel__controls">
+                            <label class="carousel__control carousel__control--backward" for="H"></label>
+                            <label class="carousel__control carousel__control--forward" for="G"></label>
+                        </div>
+                        <div class="carousel__controls">
+                            <label class="carousel__control carousel__control--backward" for="F"></label>
+                            <label class="carousel__control carousel__control--forward" for="H"></label>
+                        </div>
+                        <div class="carousel__controls">
+                            <label class="carousel__control carousel__control--backward" for="G"></label>
+                            <label class="carousel__control carousel__control--forward" for="F"></label>
+                        </div>
+                
+                        <div class="carousel__track">
+                            <li class="carousel__slide"></li>
+                            <li class="carousel__slide"></li>
+                            <li class="carousel__slide"></li>
+                        </div>
                     </div>
-                    <div class="carousel__controls">
-                    <label class="carousel__control carousel__control--backward" for="F"></label>
-                    <label class="carousel__control carousel__control--forward" for="H"></label>
-                    </div>
-                    <div class="carousel__controls">
-                    <label class="carousel__control carousel__control--backward" for="G"></label>
-                    <label class="carousel__control carousel__control--forward" for="F"></label>
-                    </div>
-                    
-                    <div class="carousel__track">
-                    <li class="carousel__slide"></li>
-                    <li class="carousel__slide"></li>
-                    <li class="carousel__slide"></li>
-                    </div>
+                </div>
+            </div>
         </section>
+          
 
         <section>
             <div class="section__btn">
-                <button class="section__btn-container section__btn-news">VER NOVEDADES</button>
+                <button class="section__btn-container">VER NOVEDADES</button>
             </div>
         </section>
 
