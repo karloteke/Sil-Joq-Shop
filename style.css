@@ -141,7 +141,7 @@ nav a{
 .section__btn{
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 99px;
   padding-top: 40px;
 }
 
@@ -164,7 +164,8 @@ nav a{
   justify-content: space-between;
   padding-right: 80px;
   padding-left: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 110px;
+  padding-top: 50px;
 }
 
 p{
@@ -237,6 +238,7 @@ h1{
 .footer__logo{
   height: 80px;
 }
+
 
 /* PRODUCTS-LIST */
 
@@ -389,6 +391,11 @@ h1{
     padding-bottom: 20px;
   }
 
+  .product-h1 {
+    font-size: 15px;
+    padding-left: 56px;
+  }
+
   .product__photo {
     height: 203px;
     width: 192px;
@@ -419,6 +426,8 @@ h1{
   .footer__container{
     padding-right: 45px;
     padding-left: 45px;
+    padding-top: 40px;
+    padding-bottom: 70px;
   }
 
   .footer__btn-container{
@@ -489,13 +498,13 @@ h1{
   .footer__container{
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 11px;
+    padding-top: 42px;
   }
 
   p{
     font-size: 10px;
   }
-  
+
   .section__btn-container {
     font-size: 14px;
   }
@@ -536,7 +545,7 @@ h1{
 
   .product-h1 {
     font-size: 15px;
-    padding-left: 56px;
+    padding-left: 35px;
   }
 
   .filters{
@@ -575,7 +584,7 @@ h1{
 }
 
 
-@media only screen and (max-width: 516px) {
+@media only screen and (max-width: 600px) {
 
   .header {
     padding-left: 20px;
@@ -583,8 +592,9 @@ h1{
   }
 
   .header__input-container {
-    width: 57px;
+    width: 62px;
     height: 20px;
+    font-size: 10px;
   }
 
   .header__menu {
@@ -633,10 +643,6 @@ h1{
     padding-left: 11px;
   }
 
-  .section__btn{
-    padding-bottom: 103px;
-  }
-
   .product__photo {
     height: 141px;
     width: 130px;
@@ -654,8 +660,7 @@ h1{
   .footer__container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 70px;
   }
 
   .footer__newsletter-container input {
