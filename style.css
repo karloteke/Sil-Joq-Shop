@@ -18,8 +18,7 @@
 }
 
 body{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
   overflow-x: hidden;
 }
 
@@ -136,6 +135,7 @@ nav a{
   border: 1px solid #ccc;
   cursor: pointer;
   border-radius: 5px;
+  margin-bottom: 59px;
 }
 
 .section__btn{
@@ -164,8 +164,8 @@ nav a{
   justify-content: space-between;
   padding-right: 80px;
   padding-left: 80px;
-  padding-bottom: 110px;
-  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 p{
@@ -247,6 +247,7 @@ h1{
   justify-content: center;
   gap: 20px;
   padding: 20px; 
+  margin-bottom: 50px;
 }
 
 .filters{
@@ -426,8 +427,6 @@ h1{
   .footer__container{
     padding-right: 45px;
     padding-left: 45px;
-    padding-top: 40px;
-    padding-bottom: 70px;
   }
 
   .footer__btn-container{
@@ -480,11 +479,6 @@ h1{
     padding-left: 16px;
   }
 
-  nav {
-    padding-top: 26px;
-    padding-bottom: 0px;
-  }
-
   nav a{
     font-size: 20px;
     margin: 0 14px;
@@ -498,7 +492,6 @@ h1{
   .footer__container{
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 42px;
   }
 
   p{
@@ -526,6 +519,10 @@ h1{
 
   h1{
     font-size: 13px;
+  }
+
+  .products {
+    margin-bottom: 20px;
   }
 
   .products__container {
@@ -621,14 +618,6 @@ h1{
     font-size: 11px;
   }
 
-  nav {
-    padding-top: 43px;
-  }
-
-  .carousel-container{
-    padding-top: 23px;
-  }
-
   .carousel.my-carousel {
     height: 171px;
     width: 337px;
@@ -640,7 +629,7 @@ h1{
 
   .product-h1 {
     font-size: 14px;
-    padding-left: 11px;
+    padding-left: 17px;
   }
 
   .product__photo {
@@ -660,7 +649,6 @@ h1{
   .footer__container {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 70px;
   }
 
   .footer__newsletter-container input {
