@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Lista de productos</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='style.css'> 
-                
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>            
     </head>
     <body>
         <header class="header">
@@ -14,20 +13,12 @@
                 <img class="header__menu" src="./assets/img/menu.png" alt="Menu">
                 <img class="header__logo" src="./assets/img/logo.png" alt="Logo">
             </div>
-            <div class="header__search-bar">
-                <div class = "header__icon-container">
-                    <img class = "header__icon-search" src="./assets/img/busqueda.png" alt="Search icon">
-                    <input class="header__input-container"type="text" placeholder="Búsqueda...">
-                </div>  
-                <div class="header__container-icon">
-                    <div>
-                        <img class = "header__icon-user" src="./assets/img/usuario.png" alt="Search icon"> 
-                    </div>
-                    <div>
-                        <img class = "header__icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
-                    </div> 
-                </div>  
-            </div>
+            <div class = "header__search">
+                <img class = "header__icon-search" src="./assets/img/busqueda.png" alt="Search icon">
+                <input class="header__input-container" type="text" placeholder="Búsqueda...">
+                <img class = "header__icon-user" src="./assets/img/usuario.png" alt="Search icon"> 
+                <img class = "header__icon-shopping" src="./assets/img/carrito.png" alt="Search icon"> 
+            </div>  
         </header>
         
         <nav>
@@ -49,31 +40,32 @@
 
         <h1 class="product-h1">PRODUCTOS</h1>
         <section class="products">
-                <div class="filters">
-                    <h2 class="filters__title"><strong>Filtrar por:</strong></h2>
-                    <div class="sizes">
-                        <h3 class="sizes__title">Tallas</h3>
-                        <ul class ="sizes__list">
-                            <li><span class="sizes__square"></span>S</li>
-                            <li><span class="sizes__square"></span>M</li>
-                            <li><span class="sizes__square"></span>L</li>
-                            <li><span class="sizes__square"></span>XL</li>
-                        </ul>
-                    </div>
-                    <div class="colors">
-                        <h3 class="colors__title">Color</h3>
-                        <ul class="colors__list">
-                            <li><span class="colors__square"></span>Azul</li>
-                            <li><span class="colors__square"></span>Blanco</li>
-                            <li><span class="colors__square"></span>Negro</li>
-                            <li><span class="colors__square"></span>Gris</li>
-                        </ul>
-                    </div>
+            <div class="filters">
+                <h2 class="filters__title"><strong>Filtrar por:</strong></h2>
+                <div class="sizes">
+                    <h3 class="sizes__title">Tallas</h3>
+                    <ul class ="sizes__list">
+                        <li><span class="sizes__square"></span>S</li>
+                        <li><span class="sizes__square"></span>M</li>
+                        <li><span class="sizes__square"></span>L</li>
+                        <li><span class="sizes__square"></span>XL</li>
+                    </ul>
                 </div>
+                <div class="colors">
+                    <h3 class="colors__title">Color</h3>
+                    <ul class="colors__list">
+                        <li><span class="colors__square"></span>Azul</li>
+                        <li><span class="colors__square"></span>Blanco</li>
+                        <li><span class="colors__square"></span>Negro</li>
+                        <li><span class="colors__square"></span>Gris</li>
+                    </ul>
+                </div>
+            </div>
 
-                <div class="product-list">
+            <div class="product-list">
+                <div class="product-group">
                     <div class="product">
-                        <img class="product__photo" src="./assets/img/sudadera.jpg">
+                        <img class="product__photo" src="./assets/img/sudadera.jpg" alt="Description sweatshirt">
                         <div class="product__detail">
                             <h2 class="product__name">Sudadera</h2>
                             <h2 class="product__price"><strong>59,95€</strong></h2>  
@@ -82,17 +74,18 @@
                     </div>
 
                     <div class="product">
-                        <img class="product__photo" src="./assets/img/camiseta.png">
+                        <img class="product__photo" src="./assets/img/camiseta.png" alt="Description t-shirt">
                         <div class="product__detail">
                             <h2 class="product__name">Bolsa</h2>
                             <h2 class="product__price"><strong>29,95€</strong></h2>
                         </div>
                         <button class="product__btn">Añadir</button>
                     </div>
+                </div>
 
-   
+                <div class="product-group">
                     <div class="product">
-                        <img class="product__photo" src="./assets/img/bolsa.jpg">
+                        <img class="product__photo" src="./assets/img/bolsa.jpg" alt="Description bag">
                         <div class="product__detail">
                             <h2 class="product__name">Camiseta</h2>
                             <h2 class="product__price"><strong>39,95€</strong></h2>
@@ -101,7 +94,7 @@
                     </div>
 
                     <div class="product">
-                        <img class="product__photo" src="./assets/img/polo.jpg">
+                        <img class="product__photo" src="./assets/img/polo.jpg" alt="Description polo shirt">
                         <div class="product__detail">
                             <h2 class="product__name">Polo</h2>
                             <h2 class="product__price"><strong>45,95€</strong></h2>
@@ -109,6 +102,7 @@
                         <button class="product__btn">Añadir</button>
                     </div>
                 </div>
+            </div>
         </section>
 
         <footer id="footer">
@@ -129,9 +123,10 @@
                     <h1>Suscribete a nuestra Newsletter</h1>
                     <input type="text" placeholder="Email...">
                     <input type="text" placeholder="Contraseña...">
-                <div class="footer__btn">
-                    <button class="footer__btn-container">SUSCRÍBETE</button>
-                </div>             
+                    <div class="footer__btn">
+                        <button class="footer__btn-container">SUSCRÍBETE</button>
+                    </div>             
+                </div>
             </div>
         </footer>    
     </body>
