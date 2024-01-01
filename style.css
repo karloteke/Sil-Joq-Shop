@@ -50,16 +50,16 @@ body{
   font-family: 'Gotham Thin', sans-serif;
   font-size: 13px;
   background-color: white;
-  height: 30px;
+  height: 28px;
 }
 
 .header__search{
-  display: inline-flex;
+  display: flex;
   gap: 20px;
 }
 
 .header__icon-search, .header__icon-user, .header__icon-shopping {
-  height: 30px;
+  height: 28px;
   padding-top: 3px;
 }
 
@@ -565,7 +565,7 @@ h1{
   }
 
   .header__logo {
-    width: 155px;
+    width: 135px;
   }
 
   .header__menu {
