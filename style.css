@@ -37,11 +37,11 @@ body{
 }
 
 .header__menu{
-  max-width: 30px; 
+  max-width: 28px; 
 }
 
 .header__logo{
-  width: 165px;
+  width: 180px;
 }
 
 .header__input-container {
@@ -434,11 +434,15 @@ h1{
     padding-right: 35px;
   }
 
+  .header__logo {
+    width: 161px;
+  }
+
   .header__container-icon {
     padding-left: 16px;
   }
 
-  .header__icon-search, .header__icon-user, .header__icon-shopping {
+  .header__icon-search, .header__icon-user, .header__icon-shopping, .header__menu {
     height: 23px;
   }
 
@@ -569,7 +573,7 @@ h1{
   }
 
   .header__menu {
-    max-width: 22px;
+    width: 20px;
   }
 
   nav{
