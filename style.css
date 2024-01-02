@@ -112,13 +112,12 @@ nav a{
   border: 1px solid #ccc;
   cursor: pointer;
   border-radius: 5px;
-  margin-bottom: 28px;
 }
 
 .section__btn{
   display: flex;
   justify-content: center;
-  padding-bottom: 99px;
+  padding-bottom: 185px;
   padding-top: 40px;
 }
 
@@ -141,8 +140,8 @@ nav a{
   justify-content: space-between;
   padding-right: 80px;
   padding-left: 80px;
-  padding-bottom: 35px;
-  padding-top: 35px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 p{
@@ -285,7 +284,6 @@ h1{
 .product-group {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .product-list{
@@ -353,10 +351,6 @@ h1{
 
   h1 {
     font-size: 17px;
-  }
-
-  nav {
-    padding-bottom: 15px;
   }
 
   .carousel.my-carousel {
@@ -576,14 +570,13 @@ h1{
     width: 20px;
   }
 
-  nav{
-    padding-top: 25px;
-    padding-bottom: 0px;
-  }
-
   nav a {
     font-size: 14px;
     margin: 0 6px;
+  }
+
+  nav{
+    padding-bottom: 0px;
   }
 
   p {
