@@ -203,7 +203,8 @@ h1{
 }
 
 .footer__icon-ig, .footer__icon-facebook{
-  height: 43px;
+  height: 36px;
+  padding-right: 11px;
 }
 
 .footer__social-media{
@@ -413,6 +414,7 @@ h1{
 
   .footer__icon-ig, .footer__icon-facebook{
     height: 30px;
+    padding-right: 5px;
   }
 
   .footer__newsletter-container {
@@ -533,6 +535,10 @@ h1{
   .footer__btn-container{
     padding: 8px;
     font-size: 13px;
+  }
+
+  .footer__icon-ig, .footer__icon-facebook {
+    height: 25px;
   }
 
   .footer__logo {
